@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="43065364-3446-41a5-81d0-799116800fe6" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db.sqlite3" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/kilirest/migrations/0001_initial.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/kilirest/urls.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kilirest/admin.py" afterPath="$PROJECT_DIR$/kilirest/admin.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kilirest/models.py" afterPath="$PROJECT_DIR$/kilirest/models.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kilirest/serializers.py" afterPath="$PROJECT_DIR$/kilirest/serializers.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kilirest/views.py" afterPath="$PROJECT_DIR$/kilirest/views.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kilirest/urls.py" afterPath="$PROJECT_DIR$/kilirest/urls.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rest_django/urls.py" afterPath="$PROJECT_DIR$/rest_django/urls.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -34,21 +29,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="urls.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/rest_django/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-544">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="896">
+              <caret line="20" column="40" lean-forward="true" selection-start-line="20" selection-start-column="40" selection-end-line="20" selection-end-column="40" />
+              <folding>
+                <element signature="e#645#686#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="urls.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/kilirest/urls.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="320">
-              <caret line="5" column="49" lean-forward="false" selection-start-line="5" selection-start-column="49" selection-end-line="5" selection-end-column="49" />
+              <caret line="5" column="15" lean-forward="false" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
               <folding>
                 <element signature="e#0#32#0" expanded="true" />
               </folding>
@@ -122,6 +119,7 @@
         <option value="$PROJECT_DIR$/kilirest/serializers.py" />
         <option value="$PROJECT_DIR$/kilirest/views.py" />
         <option value="$PROJECT_DIR$/kilirest/urls.py" />
+        <option value="$PROJECT_DIR$/rest_django/urls.py" />
       </list>
     </option>
   </component>
@@ -427,7 +425,14 @@
       <option name="project" value="LOCAL" />
       <updated>1507210496833</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="added serializer and view">
+      <created>1507211997183</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1507211997183</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -464,7 +469,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="glaube zu wissen was los ist" />
-    <option name="LAST_COMMIT_MESSAGE" value="glaube zu wissen was los ist" />
+    <MESSAGE value="added serializer and view" />
+    <option name="LAST_COMMIT_MESSAGE" value="added serializer and view" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -517,20 +523,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rest_django/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-544">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/kilirest/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="320">
-          <caret line="5" column="49" lean-forward="false" selection-start-line="5" selection-start-column="49" selection-end-line="5" selection-end-column="49" />
+          <caret line="5" column="15" lean-forward="false" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
           <folding>
             <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rest_django/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="896">
+          <caret line="20" column="40" lean-forward="true" selection-start-line="20" selection-start-column="40" selection-end-line="20" selection-end-column="40" />
+          <folding>
+            <element signature="e#645#686#0" expanded="true" />
           </folding>
         </state>
       </provider>
