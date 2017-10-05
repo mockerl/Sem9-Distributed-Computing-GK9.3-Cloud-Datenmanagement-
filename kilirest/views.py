@@ -50,3 +50,6 @@ def user_detail(request, pk):
     elif request.method == 'DELETE':
         user.delete()
         return HttpResponse(status=204)
+
+def create_user (request):
+    request.
